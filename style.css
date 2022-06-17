@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+*{
+    text-align: center;
+    margin-top: 10%;
+}
+
+:root{
+    --cor0: #023636;
+    --cor1: #015958;
+    --cor2: #008F8C;
+    --cor3: #23606E;
+    --cor4: #FACFCE;
+    --cor5: #ffaba9;
+    }
+
+body{
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2));
+}
+
+.marcadores{
+    display: block;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: solid 1px FACFCE;
+    padding: 0px;
+    border-radius: 10%;
+    position: relative;
+    margin: 1px 1px 1px 1px;
+    background-color: #FACFCE;
+    box-shadow: 2px 2px 5px #01595869;
+}
+
+
+#circulo{
+    padding: 0px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+
+
+#xis{
+    padding: 0px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+img{
+    display: none;
+}
+
+.cima{
+    border: solid 1px red;
+}
+
+#cima-meio{
+    background-color: #ffaba9;
+}
+
+#meio-esquerda{
+    background-color: #ffaba9;
+}
+
+#meio-direita{
+    background-color: #ffaba9;
+}
+
+#baixo-meio{
+    background-color: #ffaba9;
+}
+
+.velha{ 
+    animation: deuVelha 3s linear infinite;
+}
+
+@keyframes deuVelha {
+    to{
+        
+    }
+    from{
+        
+    }
+}
